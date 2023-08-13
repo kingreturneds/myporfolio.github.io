@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="cont">
+        <div class="tab">
+            <button class="tab_btn">home</button>
+            <button class="tab_btn">contact</button>
+            <button class="tab_btn">focus</button>
+            <button class="tab_btn">info</button>
+            <button class="tab_btn">more</button>
+            <div class="linee"></div>
+        </div>
+    <div class="main_content">
+        <div class="content_box">
+        <h2>home</h2>
+        <p>LHome is where you live: your house, apartment, or condo. It's also the place we feel most comfortable, loved, and protected — where we most feel at home. Home is many things to many people. It's the place you live, and the places you love: people might feel at home in a bookstore, a park, or certain cities.</p>
+         </div>    
+        <div class="content_box">
+        <h2>contact</h2>
+        <p>communication with someone, especially by speaking or writing to them regularly: "Have you been in contact with Andrew recently?" "Only by phone." I'm still in contact with her - we write a couple of times a year. There isn't enough contact between teachers and parents.</p>
+         </div> 
+         <div class="content_box">
+        <h2>focus</h2>
+        <p>A focus word is a word that receives the most stress in a thought group. Every thought group has at least one focus word, and the focus word tends to be the last important word in a thought group. It is generally a content word.</p>
+         </div> 
+         <div class="content_box">
+        <h2>info</h2>
+        <p>Information is an abstract concept that refers to that which has the power to inform. At the most fundamental level, information pertains to the interpretation (perhaps formally) of that which may be sensed, or their abstractions.</p>
+          </div> 
+          <div class="content_box">
+        <h2>more</h2>
+        <p>More is often considered to be the comparative form of much and , many. 1. determiner. You use more to indicate that there is a greater amount of something than before or than average, or than something else.</p>
+    </div> 
+    </div>
+    </div>
+    <footer>
+        <p>ahdf;ahd;flhasldflashfl;kajsdflkjasd;fljasd;lfjsal;fjl;sanvklsda</p>
+    </footer>
+    <script>
+        const tabs= document.querySelectorAll('.tab_btn');
+        const allcontent= document.querySelectorAll('.content_box');
+
+        tabs.forEach((tab, index)=>{
+            tab.addEventListener('click',(e)=>{
+                tabs.forEach(tab=>{tab.classList.remove('active')});
+                tab.classList.add('active');
+                var linee=document.querySelector('.linee');
+            linee.style.width=e.target.offsetWidth + "px"; 
+            linee.style.left=e.target.offsetLeft + "px";
+            allcontent.forEach(cont=>{cont.classList.remove('active')});
+            allcontent[index].classList.add('active');
+            })
+     
+        })
+    </script>
+</body>
+
+</html>
