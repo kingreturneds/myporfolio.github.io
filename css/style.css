@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(124, 248, 248);
+    background-color: rgb(183, 233, 233);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,12 +14,13 @@ body{
 .cont{
     margin-top:20px ;
     width: 1000px;
-    background-color: aliceblue;
+    background-color: rgba(0,0,0,.5);
     padding: 30px;
     box-shadow: 0 20px 60px black;
     border-radius: 20px;
 
 }
+
 .tab{
     width: 100%;
     display: flex;
