@@ -89,8 +89,8 @@ footer{
     margin-top: 1000px;
 }
 .main_content img{
-
- 
+    display:flex;
+    
     align-items: end;
     position: relative;
     width: 24%;
