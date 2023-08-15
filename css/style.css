@@ -88,3 +88,11 @@ footer{
     position: absolute;
     margin-top: 1000px;
 }
+.main_content img{
+
+ 
+    align-items: end;
+    position: relative;
+    width: 24%;
+    height: 24%;
+}
