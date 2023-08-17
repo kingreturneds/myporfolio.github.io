@@ -44,7 +44,7 @@ body{
   
 }
 .tab .tab_btn:hover{
- text-shadow: 0 0 25px green;
+ text-shadow: 2px 2px 25px green;
 }
 .tab .tab_btn.active{
     color: rgb(85, 206, 105);
