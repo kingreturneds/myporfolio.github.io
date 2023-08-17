@@ -15,7 +15,7 @@ body{
 }
 .cont{
     margin-top:20px ;
-    width: 10000px;
+    width: 9000px;
     background-color: rgba(196, 192, 192, 0.5);
     padding: 30px;
     box-shadow: 0 20px 60px black;
@@ -32,6 +32,7 @@ body{
     font-size: 18px;
     font-weight: 600;
     position: relative;
+    
 }
 .tab .tab_btn{
     font-size: 18px;
@@ -43,6 +44,7 @@ body{
     cursor: pointer;
     box-shadow: inset 0 0 0 0 white;
     transition: 1.2s;
+   
     
 
   
@@ -56,6 +58,7 @@ body{
 }
 .tab .tab_btn.active{
     color: rgb(85, 206, 105);
+ 
 }
 .main_content{
     padding: 20px;
