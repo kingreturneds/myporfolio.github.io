@@ -41,10 +41,18 @@ body{
     border: none;
     padding: 18px;
     cursor: pointer;
+    box-shadow: inset 0 0 0 0 white;
+    transition: 1.2s;
+    
+
   
 }
 .tab .tab_btn:hover{
- text-shadow: 2px 2px 25px green;
+ color: green;
+ transition: all.6 ease-out;
+ box-shadow: inset 300px 0 0 0 transparent;
+ border: none;
+ 
 }
 .tab .tab_btn.active{
     color: rgb(85, 206, 105);
