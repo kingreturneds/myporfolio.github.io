@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../pics/105774262_p0.jpg);
+  background-color: gray;
     background-repeat:no-repeat;
     background-size: 100% ;
     display: flex;
@@ -14,7 +14,7 @@ body{
 
 }
 .cont{
-    margin-top:20px ;
+    margin-top:2    px ;
     width: 9000px;
     background-color: rgba(196, 192, 192, 0.5);
     padding: 30px;
