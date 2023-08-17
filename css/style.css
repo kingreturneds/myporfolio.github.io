@@ -46,6 +46,8 @@ body{
 }
 .main_content{
     padding: 20px;
+    
+   
 }
 .main_content .content_box {
     display: none;
@@ -88,11 +90,9 @@ footer{
     position: absolute;
     margin-top: 1000px;
 }
-.main_content img{
-    display:flex;
-    
-    align-items: end;
+.main_content .content_box h2 img{
     position: relative;
-    width: 24%;
+    margin-left: 20% ;
     height: 24%;
+    border-radius: 20px ;
 }
