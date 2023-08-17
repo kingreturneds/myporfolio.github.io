@@ -15,7 +15,7 @@ body{
 }
 .cont{
     margin-top:20px ;
-    width: 1000px;
+    width: 10000px;
     background-color: rgba(196, 192, 192, 0.5);
     padding: 30px;
     box-shadow: 0 20px 60px black;
@@ -42,6 +42,9 @@ body{
     padding: 18px;
     cursor: pointer;
   
+}
+.tab .tab_btn:hover{
+ text-shadow: 0 0 25px green;
 }
 .tab .tab_btn.active{
     color: rgb(85, 206, 105);
