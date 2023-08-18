@@ -14,12 +14,12 @@ body{
 
 }
 .cont{
-    margin-top:2    px ;
+    margin-top:2px ;
     width: 9000px;
     background-color: rgba(196, 192, 192, 0.5);
     padding: 30px;
-    box-shadow: 0 20px 60px black;
-    border-radius: 20px;
+    box-shadow: 0 20px 60px rgb(233, 230, 230);
+    border-radius: 2px;
 
 }
 
@@ -28,7 +28,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(247, 242, 242);
     font-size: 18px;
     font-weight: 600;
     position: relative;
@@ -51,14 +51,14 @@ body{
   
 }
 .tab .tab_btn:hover{
- color: green;
+ color: rgb(32, 36, 32);
  transition: all.6 ease-out;
  box-shadow: inset 300px 0 0 0 transparent;
  border: none;
  
 }
 .tab .tab_btn.active{
-    color: rgb(85, 206, 105);
+    color: rgb(59, 61, 59);
  
 }
 .main_content{
@@ -92,7 +92,7 @@ body{
     left: 100px;
     width: 64px;
     height: 5px;
-    background-color: rgb(85, 206, 105);
+    background-color: rgb(15, 15, 15);
     border-radius: 10px ;
     transition: all .3s ease-in-out;
 }
