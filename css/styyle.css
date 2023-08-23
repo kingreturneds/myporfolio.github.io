@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-  background-color: gray;
+  background-color: rgb(129, 2, 2);
     background-repeat:no-repeat;
     background-size: 100% ;
     display: flex;
@@ -20,7 +20,7 @@ body{
     background-color: rgba(196, 192, 192, 0.5);
     padding: 30px;
     box-shadow: 0 20px 60px rgb(233, 230, 230);
-    border-radius: 2px;
+    border-radius: 1px;
 
 }
 
@@ -113,5 +113,17 @@ footer{
     position: relative;
     margin-left: 20% ;
     height: 24%;
-    border-radius: 20px ;
+    border-radius: 50% ;
+}
+#projectid a{
+    text-decoration: none;
+
+}   
+#accid {
+    color: aliceblue;
+    background: black;
+    padding: 2%;
+    margin: 2%;
+    height: 80vh;
+    width: 100%;
 }
